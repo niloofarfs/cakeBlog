@@ -1,0 +1,79 @@
+html *
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+html
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	direction: rtl;
+	margin: 0px;
+	padding: 0px;
+}
+
+li
+{
+	display: inline;
+}
+
+a
+{
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #f00;
+}
+
+/*----------- media queries ------------*/
+.container
+{
+	background-color: gray;
+}
+
+
+@media screen and (max-width: 767px)
+{
+	.container
+	{
+		margin: 0px 10px;
+	}
+}
+
+@media screen and (min-width: 768px)
+{
+	.container
+	{
+		width: 750px;
+		margin: 0px auto;
+	}
+}
+
+@media screen and (min-width: 992px)
+{
+	.container
+	{
+		width: 970px;
+		margin: 0px auto;
+	}
+}
+
+@media screen and (min-width: 1200px)
+{
+	.container
+	{
+		width: 1170px;
+		margin: 0px auto;
+	}
+}
+
+
+
